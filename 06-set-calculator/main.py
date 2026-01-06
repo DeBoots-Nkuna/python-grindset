@@ -53,6 +53,7 @@ while program_running:
     
     if user_choice == 'yes':
         print("\n" * 35)
+        num1 = total
         continue
     elif user_choice == 'new':
         total = 0
