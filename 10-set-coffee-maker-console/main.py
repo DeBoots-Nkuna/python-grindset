@@ -59,6 +59,10 @@ while is_on:
                 change = round(total_paid - drink_cost, 2)
                 print(f"Here is your change: ${change}")
                 print(f"Here is your {user_choice} drink. Enjoy!")
+            else:
+                print("Sorry that's not enough money. Money refunded.")
+                can_make_coffee = False
+                is_on = False
             
             
             #TODO: deduct the required ingredients from the resources.
